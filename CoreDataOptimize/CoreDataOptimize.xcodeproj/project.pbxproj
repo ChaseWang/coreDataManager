@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93E93B581933300E00F8E308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E93B571933300E00F8E308 /* Foundation.framework */; };
+		93E93B5A1933300E00F8E308 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E93B591933300E00F8E308 /* CoreGraphics.framework */; };
+		93E93B5C1933300E00F8E308 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E93B5B1933300E00F8E308 /* UIKit.framework */; };
+		93E93B621933300E00F8E308 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93E93B601933300E00F8E308 /* InfoPlist.strings */; };
+		93E93B641933300E00F8E308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B631933300E00F8E308 /* main.m */; };
+		93E93B681933300E00F8E308 /* SOLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B671933300E00F8E308 /* SOLAppDelegate.m */; };
+		93E93B6B1933300E00F8E308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E93B691933300E00F8E308 /* Main.storyboard */; };
+		93E93B6E1933300E00F8E308 /* SOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B6D1933300E00F8E308 /* SOLViewController.m */; };
+		93E93B701933300E00F8E308 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E93B6F1933300E00F8E308 /* Images.xcassets */; };
+		93E93B771933300E00F8E308 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E93B761933300E00F8E308 /* XCTest.framework */; };
+		93E93B781933300E00F8E308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E93B571933300E00F8E308 /* Foundation.framework */; };
+		93E93B791933300E00F8E308 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E93B5B1933300E00F8E308 /* UIKit.framework */; };
+		93E93B811933300E00F8E308 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93E93B7F1933300E00F8E308 /* InfoPlist.strings */; };
+		93E93B831933300E00F8E308 /* CoreDataOptimizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B821933300E00F8E308 /* CoreDataOptimizeTests.m */; };
+		93E93B8F1933304E00F8E308 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B8D1933304E00F8E308 /* DataModel.xcdatamodeld */; };
+		93E93B931933368D00F8E308 /* SOLCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B921933368D00F8E308 /* SOLCoredataManager.m */; };
+		93E93B95193337F200F8E308 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E93B94193337F200F8E308 /* CoreData.framework */; };
+		93E93B9819333ECF00F8E308 /* SOLCoredataConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B9719333ECF00F8E308 /* SOLCoredataConfiguration.m */; };
+		93E93B9B193344B700F8E308 /* SOLCoredataManager+Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E93B9A193344B700F8E308 /* SOLCoredataManager+Worker.m */; };
+		93EC21DF193438790058E68E /* SubjectEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EC21DE193438790058E68E /* SubjectEntity.m */; };
+		93EC21E2193438790058E68E /* StudentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EC21E1193438790058E68E /* StudentEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93E93B7A1933300E00F8E308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E93B4C1933300E00F8E308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E93B531933300E00F8E308;
+			remoteInfo = CoreDataOptimize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93E93B541933300E00F8E308 /* CoreDataOptimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataOptimize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E93B571933300E00F8E308 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93E93B591933300E00F8E308 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93E93B5B1933300E00F8E308 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93E93B5F1933300E00F8E308 /* CoreDataOptimize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataOptimize-Info.plist"; sourceTree = "<group>"; };
+		93E93B611933300E00F8E308 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93E93B631933300E00F8E308 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93E93B651933300E00F8E308 /* CoreDataOptimize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataOptimize-Prefix.pch"; sourceTree = "<group>"; };
+		93E93B661933300E00F8E308 /* SOLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOLAppDelegate.h; sourceTree = "<group>"; };
+		93E93B671933300E00F8E308 /* SOLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOLAppDelegate.m; sourceTree = "<group>"; };
+		93E93B6A1933300E00F8E308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93E93B6C1933300E00F8E308 /* SOLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOLViewController.h; sourceTree = "<group>"; };
+		93E93B6D1933300E00F8E308 /* SOLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOLViewController.m; sourceTree = "<group>"; };
+		93E93B6F1933300E00F8E308 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93E93B751933300E00F8E308 /* CoreDataOptimizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataOptimizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E93B761933300E00F8E308 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93E93B7E1933300E00F8E308 /* CoreDataOptimizeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataOptimizeTests-Info.plist"; sourceTree = "<group>"; };
+		93E93B801933300E00F8E308 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93E93B821933300E00F8E308 /* CoreDataOptimizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataOptimizeTests.m; sourceTree = "<group>"; };
+		93E93B8E1933304E00F8E308 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		93E93B911933368D00F8E308 /* SOLCoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLCoredataManager.h; sourceTree = "<group>"; };
+		93E93B921933368D00F8E308 /* SOLCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOLCoredataManager.m; sourceTree = "<group>"; };
+		93E93B94193337F200F8E308 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93E93B9619333ECF00F8E308 /* SOLCoredataConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLCoredataConfiguration.h; sourceTree = "<group>"; };
+		93E93B9719333ECF00F8E308 /* SOLCoredataConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOLCoredataConfiguration.m; sourceTree = "<group>"; };
+		93E93B99193344B700F8E308 /* SOLCoredataManager+Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SOLCoredataManager+Worker.h"; sourceTree = "<group>"; };
+		93E93B9A193344B700F8E308 /* SOLCoredataManager+Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SOLCoredataManager+Worker.m"; sourceTree = "<group>"; };
+		93EC21D4193430DA0058E68E /* SOLCoredata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLCoredata.h; sourceTree = "<group>"; };
+		93EC21DD193438790058E68E /* SubjectEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectEntity.h; sourceTree = "<group>"; };
+		93EC21DE193438790058E68E /* SubjectEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectEntity.m; sourceTree = "<group>"; };
+		93EC21E0193438790058E68E /* StudentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEntity.h; sourceTree = "<group>"; };
+		93EC21E1193438790058E68E /* StudentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEntity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93E93B511933300E00F8E308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E93B95193337F200F8E308 /* CoreData.framework in Frameworks */,
+				93E93B5A1933300E00F8E308 /* CoreGraphics.framework in Frameworks */,
+				93E93B5C1933300E00F8E308 /* UIKit.framework in Frameworks */,
+				93E93B581933300E00F8E308 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E93B721933300E00F8E308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E93B771933300E00F8E308 /* XCTest.framework in Frameworks */,
+				93E93B791933300E00F8E308 /* UIKit.framework in Frameworks */,
+				93E93B781933300E00F8E308 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93E93B4B1933300E00F8E308 = {
+			isa = PBXGroup;
+			children = (
+				93E93B5D1933300E00F8E308 /* CoreDataOptimize */,
+				93E93B7C1933300E00F8E308 /* CoreDataOptimizeTests */,
+				93E93B561933300E00F8E308 /* Frameworks */,
+				93E93B551933300E00F8E308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93E93B551933300E00F8E308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E93B541933300E00F8E308 /* CoreDataOptimize.app */,
+				93E93B751933300E00F8E308 /* CoreDataOptimizeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E93B561933300E00F8E308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E93B94193337F200F8E308 /* CoreData.framework */,
+				93E93B571933300E00F8E308 /* Foundation.framework */,
+				93E93B591933300E00F8E308 /* CoreGraphics.framework */,
+				93E93B5B1933300E00F8E308 /* UIKit.framework */,
+				93E93B761933300E00F8E308 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93E93B5D1933300E00F8E308 /* CoreDataOptimize */ = {
+			isa = PBXGroup;
+			children = (
+				93E93B8C1933302A00F8E308 /* SOLCoredata */,
+				93E93B661933300E00F8E308 /* SOLAppDelegate.h */,
+				93E93B671933300E00F8E308 /* SOLAppDelegate.m */,
+				93E93B691933300E00F8E308 /* Main.storyboard */,
+				93E93B6C1933300E00F8E308 /* SOLViewController.h */,
+				93E93B6D1933300E00F8E308 /* SOLViewController.m */,
+				93E93B6F1933300E00F8E308 /* Images.xcassets */,
+				93E93B5E1933300E00F8E308 /* Supporting Files */,
+			);
+			path = CoreDataOptimize;
+			sourceTree = "<group>";
+		};
+		93E93B5E1933300E00F8E308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E93B5F1933300E00F8E308 /* CoreDataOptimize-Info.plist */,
+				93E93B601933300E00F8E308 /* InfoPlist.strings */,
+				93E93B631933300E00F8E308 /* main.m */,
+				93E93B651933300E00F8E308 /* CoreDataOptimize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93E93B7C1933300E00F8E308 /* CoreDataOptimizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				93E93B821933300E00F8E308 /* CoreDataOptimizeTests.m */,
+				93E93B7D1933300E00F8E308 /* Supporting Files */,
+			);
+			path = CoreDataOptimizeTests;
+			sourceTree = "<group>";
+		};
+		93E93B7D1933300E00F8E308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E93B7E1933300E00F8E308 /* CoreDataOptimizeTests-Info.plist */,
+				93E93B7F1933300E00F8E308 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93E93B8C1933302A00F8E308 /* SOLCoredata */ = {
+			isa = PBXGroup;
+			children = (
+				93E93B901933306C00F8E308 /* entity */,
+				93E93B8D1933304E00F8E308 /* DataModel.xcdatamodeld */,
+				93E93B911933368D00F8E308 /* SOLCoredataManager.h */,
+				93E93B921933368D00F8E308 /* SOLCoredataManager.m */,
+				93E93B9619333ECF00F8E308 /* SOLCoredataConfiguration.h */,
+				93E93B9719333ECF00F8E308 /* SOLCoredataConfiguration.m */,
+				93E93B99193344B700F8E308 /* SOLCoredataManager+Worker.h */,
+				93E93B9A193344B700F8E308 /* SOLCoredataManager+Worker.m */,
+				93EC21D4193430DA0058E68E /* SOLCoredata.h */,
+			);
+			path = SOLCoredata;
+			sourceTree = "<group>";
+		};
+		93E93B901933306C00F8E308 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				93EC21E0193438790058E68E /* StudentEntity.h */,
+				93EC21E1193438790058E68E /* StudentEntity.m */,
+				93EC21DD193438790058E68E /* SubjectEntity.h */,
+				93EC21DE193438790058E68E /* SubjectEntity.m */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93E93B531933300E00F8E308 /* CoreDataOptimize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E93B861933300E00F8E308 /* Build configuration list for PBXNativeTarget "CoreDataOptimize" */;
+			buildPhases = (
+				93E93B501933300E00F8E308 /* Sources */,
+				93E93B511933300E00F8E308 /* Frameworks */,
+				93E93B521933300E00F8E308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataOptimize;
+			productName = CoreDataOptimize;
+			productReference = 93E93B541933300E00F8E308 /* CoreDataOptimize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93E93B741933300E00F8E308 /* CoreDataOptimizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E93B891933300E00F8E308 /* Build configuration list for PBXNativeTarget "CoreDataOptimizeTests" */;
+			buildPhases = (
+				93E93B711933300E00F8E308 /* Sources */,
+				93E93B721933300E00F8E308 /* Frameworks */,
+				93E93B731933300E00F8E308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E93B7B1933300E00F8E308 /* PBXTargetDependency */,
+			);
+			name = CoreDataOptimizeTests;
+			productName = CoreDataOptimizeTests;
+			productReference = 93E93B751933300E00F8E308 /* CoreDataOptimizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93E93B4C1933300E00F8E308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SOL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wangtao;
+				TargetAttributes = {
+					93E93B741933300E00F8E308 = {
+						TestTargetID = 93E93B531933300E00F8E308;
+					};
+				};
+			};
+			buildConfigurationList = 93E93B4F1933300E00F8E308 /* Build configuration list for PBXProject "CoreDataOptimize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93E93B4B1933300E00F8E308;
+			productRefGroup = 93E93B551933300E00F8E308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93E93B531933300E00F8E308 /* CoreDataOptimize */,
+				93E93B741933300E00F8E308 /* CoreDataOptimizeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E93B521933300E00F8E308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E93B701933300E00F8E308 /* Images.xcassets in Resources */,
+				93E93B621933300E00F8E308 /* InfoPlist.strings in Resources */,
+				93E93B6B1933300E00F8E308 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E93B731933300E00F8E308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E93B811933300E00F8E308 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93E93B501933300E00F8E308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EC21E2193438790058E68E /* StudentEntity.m in Sources */,
+				93E93B9819333ECF00F8E308 /* SOLCoredataConfiguration.m in Sources */,
+				93E93B931933368D00F8E308 /* SOLCoredataManager.m in Sources */,
+				93E93B6E1933300E00F8E308 /* SOLViewController.m in Sources */,
+				93E93B8F1933304E00F8E308 /* DataModel.xcdatamodeld in Sources */,
+				93E93B641933300E00F8E308 /* main.m in Sources */,
+				93E93B681933300E00F8E308 /* SOLAppDelegate.m in Sources */,
+				93E93B9B193344B700F8E308 /* SOLCoredataManager+Worker.m in Sources */,
+				93EC21DF193438790058E68E /* SubjectEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E93B711933300E00F8E308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E93B831933300E00F8E308 /* CoreDataOptimizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93E93B7B1933300E00F8E308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E93B531933300E00F8E308 /* CoreDataOptimize */;
+			targetProxy = 93E93B7A1933300E00F8E308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93E93B601933300E00F8E308 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E93B611933300E00F8E308 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93E93B691933300E00F8E308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E93B6A1933300E00F8E308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93E93B7F1933300E00F8E308 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E93B801933300E00F8E308 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93E93B841933300E00F8E308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93E93B851933300E00F8E308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93E93B871933300E00F8E308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOptimize/CoreDataOptimize-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataOptimize/CoreDataOptimize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93E93B881933300E00F8E308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOptimize/CoreDataOptimize-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataOptimize/CoreDataOptimize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93E93B8A1933300E00F8E308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataOptimize.app/CoreDataOptimize";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOptimize/CoreDataOptimize-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreDataOptimizeTests/CoreDataOptimizeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93E93B8B1933300E00F8E308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataOptimize.app/CoreDataOptimize";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOptimize/CoreDataOptimize-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataOptimizeTests/CoreDataOptimizeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93E93B4F1933300E00F8E308 /* Build configuration list for PBXProject "CoreDataOptimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E93B841933300E00F8E308 /* Debug */,
+				93E93B851933300E00F8E308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E93B861933300E00F8E308 /* Build configuration list for PBXNativeTarget "CoreDataOptimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E93B871933300E00F8E308 /* Debug */,
+				93E93B881933300E00F8E308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E93B891933300E00F8E308 /* Build configuration list for PBXNativeTarget "CoreDataOptimizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E93B8A1933300E00F8E308 /* Debug */,
+				93E93B8B1933300E00F8E308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93E93B8D1933304E00F8E308 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93E93B8E1933304E00F8E308 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 93E93B8E1933304E00F8E308 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93E93B4C1933300E00F8E308 /* Project object */;
+}

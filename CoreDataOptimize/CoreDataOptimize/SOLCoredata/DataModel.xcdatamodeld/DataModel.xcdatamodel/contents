@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="StudentEntity" representedClassName="StudentEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="subjects" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SubjectEntity" inverseName="student" inverseEntity="SubjectEntity" syncable="YES"/>
+    </entity>
+    <entity name="SubjectEntity" representedClassName="SubjectEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="student" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StudentEntity" inverseName="subjects" inverseEntity="StudentEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="StudentEntity" positionX="-306" positionY="-85" width="128" height="103"/>
+        <element name="SubjectEntity" positionX="-54" positionY="18" width="128" height="88"/>
+    </elements>
+</model>
